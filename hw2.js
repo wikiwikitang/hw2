@@ -1,4 +1,5 @@
 /*
+
 Question 1
 
 Given the array, implement a function for generating a new array which doubles the quantity and price in each object.
@@ -14,6 +15,7 @@ const itemsObject = [
 ];
 
 /*
+
 Question 2
 
 Given the string, implement a function to remove all the non-alphabet characters and extra space in the string and convert the string to all lowercase.
@@ -25,7 +27,9 @@ const string =
 
 const expectedReturnString =
   'perhaps the easiest to understand case for reduce is to return the sum of all the elements in an array';
+
 /*
+
 Question 3
 
 Implement a function to merge two arrays of objects on uuid, but first has uuid and name, second has uuid and role. With the not existing property, fill with null. Sort according to uuid after merge.
