@@ -35,7 +35,6 @@ const totalValue = (objArray) => {
   }, 0);
 };
 
-console.log(totalValue(itemsObject));
 /*
 
 Question 2
@@ -54,7 +53,6 @@ const stringConverter = (str) => {
   return str.split(/[- ]+/).join(' ').trim().toLowerCase();
 };
 
-console.log(stringConverter(string));
 /*
 
 Question 3
