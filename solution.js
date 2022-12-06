@@ -101,5 +101,7 @@ const mergeTwoArray = (first, second) => {
       };
     }
   });
+  
+  //or you could use return Object.values(map);
   return Object.values(map).sort((left, right) => left - right);
 };
